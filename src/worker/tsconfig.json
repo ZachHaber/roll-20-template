@@ -1,0 +1,6 @@
+{
+  "extends": "../../tsconfig.worker",
+  "compilerOptions": {
+    "types": ["./sheetworker"]
+  }
+}

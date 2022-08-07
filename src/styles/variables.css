@@ -1,0 +1,18 @@
+:root {
+  --dark-background: #0c0c0c;
+  --dark-surface1: #1f1f1f;
+  --dark-gamecard: #2b2130;
+  --dark-primarytext: #e6e6e6;
+  --dark-secondarytext: #b3b3b3;
+  --dark-primary: #702c91;
+  --dark-primary-highlight: #8d56a7;
+  --dark-purple-text: #a980bd;
+  --dark-gray-enabled: #666666;
+  --dark-gray-disabled-D90: #333333;
+  --dark-40: #431a57;
+  --dark-L60: #c6abd3;
+  --dark-green-L40: #76ce9d;
+  --dark-red-D20: #ae4248;
+  --dark-red-brand: #be161d;
+  --dark-red-L20: #e1757b;
+}

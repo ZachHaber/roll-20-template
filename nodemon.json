@@ -1,0 +1,7 @@
+{
+  "watch": ["./build.ts", "src/"],
+  "execMap": {
+    "ts": "ts-node-esm"
+  },
+  "ext": "ts,js,scss,tsx,json5"
+}

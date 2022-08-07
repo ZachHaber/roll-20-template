@@ -1,0 +1,52 @@
+#attributes {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, auto);
+  gap: var(--half-gap);
+  .section-header {
+    grid-column: 1/-1;
+  }
+  .section-header + * {
+    grid-column-start: 2;
+  }
+  // grid-template-columns: max-content max-content;
+  // gap: 0.2rem 0.3rem;
+  // & > input {
+  //   --quick-width: 7ch;
+  // }
+  // & > label {
+  //   font-family: "Roboto Mono", monospace;
+  //   text-transform: uppercase;
+  // }
+}
+
+// #attributes {
+//   display: grid;
+//   grid-template-columns: 1fr repeat(2, auto);
+//   gap: var(--half-gap);
+//   grid-template-areas:
+//     "header  header  header"
+//     ".       score   modifier"
+//     "might   might   might"
+//     "finesse finesse finesse"
+//     "resolve resolve resolve"
+//     "insight insight insight"
+//     "bearing bearing bearing";
+//   h3 {
+//     grid-area: header;
+//   }
+//   margin: 0;
+//   .score-head {
+//     grid-area: score;
+//   }
+//   .modifier-head {
+//     grid-area: modifier;
+//   }
+//   @each $attribute in might, finesse, resolve, insight, bearing, weal {
+//     .#{$attribute} {
+//       grid-row-start: $attribute;
+//     }
+//   }
+//   :not(button) {
+//     justify-self: center;
+//   }
+// }

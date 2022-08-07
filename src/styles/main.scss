@@ -1,0 +1,11 @@
+@use './generalSetup';
+@use './sections';
+@use '../html/pages/Settings.scss';
+@use '../html/components/MainRollTemplate.scss';
+
+select[name='attr_alignment'] {
+  text-transform: uppercase;
+}
+.uppercase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,11 @@
+#settings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--half-gap);
+  h2 {
+    width: 100%;
+  }
+  .input-label * {
+    width: auto;
+  }
+}
